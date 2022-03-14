@@ -15,7 +15,7 @@ img {
 #header .logo {
   color: #fff;
   font-size: 1.5rem;
-  background: rgba(0, 0, 0, 0.24);
+  background: transparent;
   border-radius: 5px;
   padding: 0 10px;
   line-height: 2rem;
@@ -74,7 +74,8 @@ img {
 
 /****************** #welcome-section */
 #welcome-section {
-  background: url(../images/react-bg.jpeg) no-repeat fixed center / cover;
+  background: url("https://cdn.dribbble.com/users/2660249/screenshots/6664064/comp_1.gif")
+    no-repeat fixed center / cover;
   position: relative;
   display: table;
   width: 100%;
@@ -594,7 +595,8 @@ img {
 }
 @media screen and (max-width: 480px) {
   #welcome-section {
-    background: url(../images/react-bg.jpeg) no-repeat center center;
+    background: url("https://cdn.dribbble.com/users/2660249/screenshots/6664064/comp_1.gif")
+      no-repeat bottom center / cover;
   }
   .about-txt h2 {
     font-size: 20px;
