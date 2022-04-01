@@ -662,6 +662,12 @@ img {
   }
 }
 @media screen and (max-width: 480px) {
+  #header .logo {
+    font-size: 1.2rem;
+  }
+  #header .logo i {
+    font-size: 2rem;
+  }
   #welcome-section {
     background: url("https://cdn.dribbble.com/users/2660249/screenshots/6664064/comp_1.gif")
       no-repeat bottom center / cover;
