@@ -22,6 +22,9 @@ img {
   font-family: "Space Mono", monospace;
   font-weight: 100;
 }
+#header .logo i {
+  font-size: 2.5rem;
+}
 .navbar {
   position: fixed;
   z-index: 999999;
